@@ -9,3 +9,11 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+#site_header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  border-bottom: 1px solid brown;
+}
