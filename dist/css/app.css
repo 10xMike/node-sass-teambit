@@ -28,6 +28,17 @@ body a {
   display: inline-flex;
 }
 
+.jumbotron {
+  width: 80%;
+  margin: auto;
+}
+.jumbotron .jumbo_text {
+  width: 50%;
+}
+.jumbotron .jumbo_image {
+  width: 50%;
+}
+
 /* ROOT */
 :root {
   --font-color: #5e4e32;

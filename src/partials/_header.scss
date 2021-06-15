@@ -10,3 +10,14 @@
     width: 20px;
     display: inline-flex;
   }
+
+  .jumbotron{
+      width: 80%;
+      margin: auto;
+      .jumbo_text{
+        width: 50%;
+      }
+      .jumbo_image{
+          width: 50%;
+      }
+  }
