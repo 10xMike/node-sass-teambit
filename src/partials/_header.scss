@@ -12,12 +12,17 @@
   }
 
   .jumbotron{
-      width: 80%;
-      margin: auto;
+
+
       .jumbo_text{
         width: 50%;
       }
       .jumbo_image{
           width: 50%;
       }
+  }
+
+  #site_main{
+    width: 80%;
+    margin: 1rem auto;
   }
