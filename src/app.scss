@@ -1,20 +1,8 @@
 /* @import */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-#site_header{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-    border-bottom: 1px solid brown;
+@import "partials/common";
+@import "partials/header";
+/* ROOT */
+:root {
+  --font-color: #5e4e32;
 }
